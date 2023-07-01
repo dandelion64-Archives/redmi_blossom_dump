@@ -1,0 +1,36 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Redmi
+ro.product.product.device=blossom
+ro.product.product.manufacturer=xiaomi
+ro.product.product.model=M2006C3LI
+ro.product.product.name=lineage_blossom
+ro.product.build.date=Tue Jun 27 14:57:42 UTC 2023
+ro.product.build.date.utc=1687877862
+ro.product.build.fingerprint=Redmi/lineage_blossom/blossom:13/TQ3A.230605.012/luci06271457:userdebug/test-keys
+ro.product.build.id=TQ3A.230605.012
+ro.product.build.tags=test-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=eng.luci.20230627.150156
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from device/xiaomi/blossom/configs/props/product.prop
+####################################
+# Device specific properties
+import /product/etc/properties/${ro.boot.hwname}.prop
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+# end of file

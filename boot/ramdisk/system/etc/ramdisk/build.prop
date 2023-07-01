@@ -1,0 +1,20 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=Redmi
+ro.product.bootimage.device=blossom
+ro.product.bootimage.manufacturer=xiaomi
+ro.product.bootimage.model=M2006C3LI
+ro.product.bootimage.name=lineage_blossom
+ro.bootimage.build.date=Tue Jun 27 14:57:42 UTC 2023
+ro.bootimage.build.date.utc=1687877862
+ro.bootimage.build.fingerprint=Redmi/lineage_blossom/blossom:13/TQ3A.230605.012/luci06271457:userdebug/test-keys
+ro.bootimage.build.id=TQ3A.230605.012
+ro.bootimage.build.tags=test-keys
+ro.bootimage.build.type=userdebug
+ro.bootimage.build.version.incremental=eng.luci.20230627.150156
+ro.bootimage.build.version.release=13
+ro.bootimage.build.version.release_or_codename=13
+ro.bootimage.build.version.sdk=33
+# end of file
